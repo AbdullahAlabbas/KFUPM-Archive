@@ -1,0 +1,27 @@
+
+Dictionary Class Time Complexity Analysis
+-----------------------------------------
+
+1. Constructor Dictionary(String s):
+   - Inserts a single string into the AVL tree.
+   - Time Complexity: O(log n), where n is the number of words in the dictionary.
+
+2. Constructor Dictionary(File f):
+   - Reads from a file and inserts each word into the AVL tree.
+   - Time Complexity: O(m log n), where m is the number of words in the file and n is the number of words in the dictionary.
+
+3. addWord(String s):
+   - Adds a word to the AVL tree.
+   - Time Complexity: O(log n), where n is the number of words in the dictionary.
+
+4. findWord(String s):
+   - Searches for a word in the AVL tree.
+   - Time Complexity: O(log n), where n is the number of words in the dictionary.
+
+5. deleteWord(String s):
+   - Deletes a word from the AVL tree.
+   - Time Complexity: O(log n), where n is the number of words in the dictionary.
+
+6. findsimilar(String s):
+   - Finds similar words in the AVL tree.
+   - O(n), where n is the number of words in the dictionary. This is because it would need to visit every node in the tree.
