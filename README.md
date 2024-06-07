@@ -13,11 +13,11 @@ Welcome to my KFUPM-Archive Repository! This repository contains all the files, 
 
 ## Introduction
 
-This repository is a collection of my college materials, organized by year and subject. It includes notes, assignments, projects, and resources.
+This repository is a collection of my college materials, organized by year and subject. It includes notes, assignments, projects, and labs.
 
 ## Repository Structure
 
-The repository is organized by academic year and then by subject. Each subject folder contains various materials. Example structure:
+The repository is organized by subject. Each subject folder contains various materials. Example structure:
 
 ```
 KFUPM-Archive/
